@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Geometry Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/icon.png" />
+</head>
+<body>
+
+<header>
+  <h2>Geometry Calculator</h2>
+  <div class="tu">
+    <a href="https://www.instagram.com/zraa__n/" target="_blank">
+      <img src="img/image.png" alt="Profile photo" class="profile" />
+    </a>
+  </div>
+</header>
+
+<main>
+  <!-- 3D SHAPES -->
+  <h3 class="category-title">3D Shapes</h3>
+  
+  <!-- CUBE -->
+  <div class="container">
+    <div class="title">
+      <h2>Cube</h2>
+      <button class="toggle-btn" id="openKubus">View Details</button>
+    </div>
+  </div>
+
+  <!-- CUBOID -->
+  <div class="container">
+    <div class="title">
+      <h2>Cuboid</h2>
+      <button class="toggle-btn" id="openBalok">View Details</button>
+    </div>
+  </div>
+
+  <!-- SPHERE -->
+  <div class="container">
+    <div class="title">
+      <h2>Sphere</h2>
+      <button class="toggle-btn" id="openBola">View Details</button>
+    </div>
+  </div>
+
+  <!-- CYLINDER -->
+  <div class="container">
+    <div class="title">
+      <h2>Cylinder</h2>
+      <button class="toggle-btn" id="openTabung">View Details</button>
+    </div>
+  </div>
+
+  <!-- CONE -->
+  <div class="container">
+    <div class="title">
+      <h2>Cone</h2>
+      <button class="toggle-btn" id="openKerucut">View Details</button>
+    </div>
+  </div>
+
+  <!-- TRIANGULAR PYRAMID -->
+  <div class="container">
+    <div class="title">
+      <h2>Triangular Pyramid</h2>
+      <button class="toggle-btn" id="openLimas3">View Details</button>
+    </div>
+  </div>
+
+  <!-- SQUARE PYRAMID -->
+  <div class="container">
+    <div class="title">
+      <h2>Square Pyramid</h2>
+      <button class="toggle-btn" id="openLimas4">View Details</button>
+    </div>
+  </div>
+
+  <!-- PRISM -->
+  <div class="container">
+    <div class="title">
+      <h2>Prism</h2>
+      <button class="toggle-btn" id="openPrisma">View Details</button>
+    </div>
+  </div>
+
+  <!-- OCTAHEDRON -->
+  <div class="container">
+    <div class="title">
+      <h2>Octahedron</h2>
+      <button class="toggle-btn" id="openOctahedron">View Details</button>
+    </div>
+  </div>
+
+  <!-- DODECAHEDRON -->
+  <div class="container">
+    <div class="title">
+      <h2>Dodecahedron</h2>
+      <button class="toggle-btn" id="openDodecahedron">View Details</button>
+    </div>
+  </div>
+
+  <!-- ICOSAHEDRON -->
+  <div class="container">
+    <div class="title">
+      <h2>Icosahedron</h2>
+      <button class="toggle-btn" id="openIcosahedron">View Details</button>
+    </div>
+  </div>
+
+  <!-- TORUS -->
+  <div class="container">
+    <div class="title">
+      <h2>Torus</h2>
+      <button class="toggle-btn" id="openTorus">View Details</button>
+    </div>
+  </div>
+
+  <!-- 2D SHAPES -->
+  <h3 class="category-title">2D Shapes</h3>
+  
+  <!-- TRAPEZOID -->
+  <div class="container">
+    <div class="title">
+      <h2>Trapezoid</h2>
+      <button class="toggle-btn" id="openTrapesium">View Details</button>
+    </div>
+  </div>
+
+  <!-- PARALLELOGRAM -->
+  <div class="container">
+    <div class="title">
+      <h2>Parallelogram</h2>
+      <button class="toggle-btn" id="openJajar">View Details</button>
+    </div>
+  </div>
+
+  <!-- RHOMBUS -->
+  <div class="container">
+    <div class="title">
+      <h2>Rhombus</h2>
+      <button class="toggle-btn" id="openKetupat">View Details</button>
+    </div>
+  </div>
+
+  <!-- KITE -->
+  <div class="container">
+    <div class="title">
+      <h2>Kite</h2>
+      <button class="toggle-btn" id="openLayang">View Details</button>
+    </div>
+  </div>
+
+  <!-- CIRCLE -->
+  <div class="container">
+    <div class="title">
+      <h2>Circle</h2>
+      <button class="toggle-btn" id="openLingkaran">View Details</button>
+    </div>
+  </div>
+
+  <!-- TRIANGLE -->
+  <div class="container">
+    <div class="title">
+      <h2>Triangle</h2>
+      <button class="toggle-btn" id="openSegitiga">View Details</button>
+    </div>
+  </div>
+
+  <!-- SQUARE -->
+  <div class="container">
+    <div class="title">
+      <h2>Square</h2>
+      <button class="toggle-btn" id="openPersegi">View Details</button>
+    </div>
+  </div>
+
+  <!-- RECTANGLE -->
+  <div class="container">
+    <div class="title">
+      <h2>Rectangle</h2>
+      <button class="toggle-btn" id="openPersegiPanjang">View Details</button>
+    </div>
+  </div>
+
+  <!-- PENTAGON -->
+  <div class="container">
+    <div class="title">
+      <h2>Pentagon</h2>
+      <button class="toggle-btn" id="openPentagon">View Details</button>
+    </div>
+  </div>
+
+  <!-- HEXAGON -->
+  <div class="container">
+    <div class="title">
+      <h2>Hexagon</h2>
+      <button class="toggle-btn" id="openHexagon">View Details</button>
+    </div>
+  </div>
+
+  <!-- ELLIPSE -->
+  <div class="container">
+    <div class="title">
+      <h2>Ellipse</h2>
+      <button class="toggle-btn" id="openEllipse">View Details</button>
+    </div>
+  </div>
+</main>
+
+<!-- MODALS FOR EACH SHAPE -->
+<!-- CUBE -->
+<div id="modalKubus" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeKubus">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/kubus.png" alt="Cube diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Cube Formulas</h3>
+        <p><strong>Volume:</strong> S³</p>
+        <p><strong>Surface Area:</strong> 6 × S²</p>
+        <div class="modal-calculate">
+          <label for="sisi">Side (cm):</label>
+          <input type="number" id="sisi" placeholder="Enter side length" />
+          <button class="btn">Calculate</button>
+          <p>Surface Area: <span class="luas"></span></p>
+          <p>Volume: <span class="volume"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CUBOID -->
+<div id="modalBalok" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeBalok">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/balok.png" alt="Cuboid diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Cuboid Formulas</h3>
+        <p><strong>Volume:</strong> length × width × height</p>
+        <p><strong>Surface Area:</strong> 2 × (lw + lh + wh)</p>
+        <div class="modal-calculate">
+          <label for="panjang">Length (cm):</label>
+          <input type="number" id="panjang" placeholder="Enter length" />
+          <label for="lebar">Width (cm):</label>
+          <input type="number" id="lebar" placeholder="Enter width" />
+          <label for="tinggi">Height (cm):</label>
+          <input type="number" id="tinggi" placeholder="Enter height" />
+          <button class="btn_balok">Calculate</button>
+          <p>Surface Area: <span class="luas_balok"></span></p>
+          <p>Volume: <span class="volume_balok"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SPHERE -->
+<div id="modalBola" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeBola">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/bola.png" alt="Sphere diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Sphere Formulas</h3>
+        <p><strong>Volume:</strong> 4/3 × π × r³</p>
+        <p><strong>Surface Area:</strong> 4 × π × r²</p>
+        <div class="modal-calculate">
+          <label for="jari-jari">Radius (cm):</label>
+          <input type="number" id="jari-jari" placeholder="Enter radius" />
+          <button class="btn_bola">Calculate</button>
+          <p>Surface Area: <span class="luas_bola"></span></p>
+          <p>Volume: <span class="volume_bola"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CYLINDER -->
+<div id="modalTabung" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeTabung">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/tabung.png" alt="Cylinder diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Cylinder Formulas</h3>
+        <p><strong>Volume:</strong> π × r² × h</p>
+        <p><strong>Surface Area:</strong> 2πr (r + h)</p>
+        <div class="modal-calculate">
+          <label for="jari_silinder">Radius (cm):</label>
+          <input type="number" id="jari_silinder" placeholder="Enter radius" />
+          <label for="tinggi_silinder">Height (cm):</label>
+          <input type="number" id="tinggi_silinder" placeholder="Enter height" />
+          <button class="btn_tabung">Calculate</button>
+          <p>Surface Area: <span class="luas_tabung"></span></p>
+          <p>Volume: <span class="volume_tabung"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONE -->
+<div id="modalKerucut" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeKerucut">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/kerucut.png" alt="Cone diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Cone Formulas</h3>
+        <p><strong>Volume:</strong> ⅓ × π × r² × h</p>
+        <p><strong>Surface Area:</strong> πr (r + √(h² + r²))</p>
+        <div class="modal-calculate">
+          <label for="jari_kerucut">Radius (cm):</label>
+          <input type="number" id="jari_kerucut" placeholder="Enter radius" />
+          <label for="tinggi_kerucut">Height (cm):</label>
+          <input type="number" id="tinggi_kerucut" placeholder="Enter height" />
+          <button class="btn_kerucut">Calculate</button>
+          <p>Surface Area: <span class="luas_kerucut"></span></p>
+          <p>Volume: <span class="volume_kerucut"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRIANGULAR PYRAMID -->
+<div id="modalLimas3" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeLimas3">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/limasSegitiga.png" alt="Triangular pyramid diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Triangular Pyramid Formulas</h3>
+        <p><strong>Volume:</strong> ⅓ × base area × height</p>
+        <div class="modal-calculate">
+          <label for="alas_limas3">Base Area (cm²):</label>
+          <input type="number" id="alas_limas3" placeholder="Enter base area" />
+          <label for="tinggi_limas3">Height (cm):</label>
+          <input type="number" id="tinggi_limas3" placeholder="Enter height" />
+          <button class="btn_limas3">Calculate</button>
+          <p>Volume: <span class="volume_limas3"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SQUARE PYRAMID -->
+<div id="modalLimas4" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeLimas4">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/limasSegiempat.png" alt="Square pyramid diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Square Pyramid Formulas</h3>
+        <p><strong>Volume:</strong> ⅓ × base area × height</p>
+        <div class="modal-calculate">
+          <label for="sisi_limas4">Base Side (cm):</label>
+          <input type="number" id="sisi_limas4" placeholder="Enter base side" />
+          <label for="tinggi_limas4">Height (cm):</label>
+          <input type="number" id="tinggi_limas4" placeholder="Enter height" />
+          <button class="btn_limas4">Calculate</button>
+          <p>Volume: <span class="volume_limas4"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRISM -->
+<div id="modalPrisma" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closePrisma">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/p.png" alt="Prism diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Prism Formulas</h3>
+        <p><strong>Volume:</strong> Base Area × Height</p>
+        <p><strong>Surface Area:</strong> (Base Perimeter × Height) + 2 × Base Area</p>
+        <div class="modal-calculate">
+          <label for="luasAlas">Base Area (cm²):</label>
+          <input type="number" id="luasAlas" placeholder="Enter base area" />
+          <label for="kelilingAlas">Base Perimeter (cm):</label>
+          <input type="number" id="kelilingAlas" placeholder="Enter base perimeter" />
+          <label for="tinggiPrisma">Height (cm):</label>
+          <input type="number" id="tinggiPrisma" placeholder="Enter height" />
+          <button class="btn_prisma">Calculate</button>
+          <p>Volume: <span class="volume_prisma"></span></p>
+          <p>Surface Area: <span class="luas_permukaan_prisma"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- OCTAHEDRON -->
+<div id="modalOctahedron" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeOctahedron">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/octahedron.png" alt="Octahedron diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Octahedron Formulas</h3>
+        <p><strong>Volume:</strong> (√2/3) × a³</p>
+        <p><strong>Surface Area:</strong> 2 × √3 × a²</p>
+        <div class="modal-calculate">
+          <label for="octahedronEdge">Edge Length (cm):</label>
+          <input type="number" id="octahedronEdge" placeholder="Enter edge length" />
+          <button class="btn_octahedron">Calculate</button>
+          <p>Surface Area: <span class="surface_octahedron"></span></p>
+          <p>Volume: <span class="volume_octahedron"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DODECAHEDRON -->
+<div id="modalDodecahedron" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeDodecahedron">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/dodecahedron.png" alt="Dodecahedron diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Dodecahedron Formulas</h3>
+        <p><strong>Volume:</strong> (15 + 7√5)/4 × a³</p>
+        <p><strong>Surface Area:</strong> 3 × √(25 + 10√5) × a²</p>
+        <div class="modal-calculate">
+          <label for="dodecahedronEdge">Edge Length (cm):</label>
+          <input type="number" id="dodecahedronEdge" placeholder="Enter edge length" />
+          <button class="btn_dodecahedron">Calculate</button>
+          <p>Surface Area: <span class="surface_dodecahedron"></span></p>
+          <p>Volume: <span class="volume_dodecahedron"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ICOSAHEDRON -->
+<div id="modalIcosahedron" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeIcosahedron">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/icosahedron.png" alt="Icosahedron diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Icosahedron Formulas</h3>
+        <p><strong>Volume:</strong> 5/12 × (3 + √5) × a³</p>
+        <p><strong>Surface Area:</strong> 5 × √3 × a²</p>
+        <div class="modal-calculate">
+          <label for="icosahedronEdge">Edge Length (cm):</label>
+          <input type="number" id="icosahedronEdge" placeholder="Enter edge length" />
+          <button class="btn_icosahedron">Calculate</button>
+          <p>Surface Area: <span class="surface_icosahedron"></span></p>
+          <p>Volume: <span class="volume_icosahedron"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TORUS -->
+<div id="modalTorus" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeTorus">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/torus.png" alt="Torus diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Torus Formulas</h3>
+        <p><strong>Volume:</strong> 2π² × R × r²</p>
+        <p><strong>Surface Area:</strong> 4π² × R × r</p>
+        <div class="modal-calculate">
+          <label for="torusMajor">Major Radius (R) (cm):</label>
+          <input type="number" id="torusMajor" placeholder="Enter major radius" />
+          <label for="torusMinor">Minor Radius (r) (cm):</label>
+          <input type="number" id="torusMinor" placeholder="Enter minor radius" />
+          <button class="btn_torus">Calculate</button>
+          <p>Surface Area: <span class="surface_torus"></span></p>
+          <p>Volume: <span class="volume_torus"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRAPEZOID -->
+<div id="modalTrapesium" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeTrapesium">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/trapesium.png" alt="Trapezoid diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Trapezoid Formulas</h3>
+        <p><strong>Area:</strong> ½ × (a + b) × h</p>
+        <p><strong>Perimeter:</strong> a + b + c + d</p>
+        <div class="modal-calculate">
+          <label for="sisi_a_trapesium">Side a (cm):</label>
+          <input type="number" id="sisi_a_trapesium" placeholder="Enter side a" />
+          <label for="sisi_b_trapesium">Side b (cm):</label>
+          <input type="number" id="sisi_b_trapesium" placeholder="Enter side b" />
+          <label for="tinggi_trapesium">Height (cm):</label>
+          <input type="number" id="tinggi_trapesium" placeholder="Enter height" />
+          <label for="sisi_c_trapesium">Side c (cm):</label>
+          <input type="number" id="sisi_c_trapesium" placeholder="Enter side c" />
+          <label for="sisi_d_trapesium">Side d (cm):</label>
+          <input type="number" id="sisi_d_trapesium" placeholder="Enter side d" />
+          <button class="btn_trapesium">Calculate</button>
+          <p>Area: <span class="luas_trapesium"></span></p>
+          <p>Perimeter: <span class="keliling_trapesium"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PARALLELOGRAM -->
+<div id="modalJajar" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeJajar">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/jajargenjang2.png" alt="Parallelogram diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Parallelogram Formulas</h3>
+        <p><strong>Area:</strong> base × height</p>
+        <p><strong>Perimeter:</strong> 2 × (a + b)</p>
+        <div class="modal-calculate">
+          <label for="alas_jajar">Base (cm):</label>
+          <input type="number" id="alas_jajar" placeholder="Enter base" />
+          <label for="tinggi_jajar">Height (cm):</label>
+          <input type="number" id="tinggi_jajar" placeholder="Enter height" />
+          <label for="sisi_miring_jajar">Side (cm):</label>
+          <input type="number" id="sisi_miring_jajar" placeholder="Enter side" />
+          <button class="btn_jajar">Calculate</button>
+          <p>Area: <span class="luas_jajar"></span></p>
+          <p>Perimeter: <span class="keliling_jajar"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RHOMBUS -->
+<div id="modalKetupat" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeKetupat">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/BelahKetupat.png" alt="Rhombus diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Rhombus Formulas</h3>
+        <p><strong>Area:</strong> ½ × d₁ × d₂</p>
+        <p><strong>Perimeter:</strong> 4 × side</p>
+        <div class="modal-calculate">
+          <label for="d1">Diagonal 1 (cm):</label>
+          <input type="number" id="d1" placeholder="Enter diagonal 1" />
+          <label for="d2">Diagonal 2 (cm):</label>
+          <input type="number" id="d2" placeholder="Enter diagonal 2" />
+          <label for="sisi_ketupat">Side (cm):</label>
+          <input type="number" id="sisi_ketupat" placeholder="Enter side" />
+          <button class="btn_ketupat">Calculate</button>
+          <p>Area: <span class="luas_ketupat"></span></p>
+          <p>Perimeter: <span class="keliling_ketupat"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- KITE -->
+<div id="modalLayang" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeLayang">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/layang-layang.png" alt="Kite diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Kite Formulas</h3>
+        <p><strong>Area:</strong> ½ × d₁ × d₂</p>
+        <p><strong>Perimeter:</strong> 2 × (a + b)</p>
+        <div class="modal-calculate">
+          <label for="d1_layang">Diagonal 1 (cm):</label>
+          <input type="number" id="d1_layang" placeholder="Enter diagonal 1" />
+          <label for="d2_layang">Diagonal 2 (cm):</label>
+          <input type="number" id="d2_layang" placeholder="Enter diagonal 2" />
+          <label for="sisiA_layang">Side A (cm):</label>
+          <input type="number" id="sisiA_layang" placeholder="Enter side A" />
+          <label for="sisiB_layang">Side B (cm):</label>
+          <input type="number" id="sisiB_layang" placeholder="Enter side B" />
+          <button class="btn_layang">Calculate</button>
+          <p>Area: <span class="luas_layang"></span></p>
+          <p>Perimeter: <span class="keliling_layang"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CIRCLE -->
+<div id="modalLingkaran" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeLingkaran">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/lingkaran.png" alt="Circle diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Circle Formulas</h3>
+        <p><strong>Area:</strong> π × r²</p>
+        <p><strong>Circumference:</strong> 2 × π × r</p>
+        <div class="modal-calculate">
+          <label for="radius">Radius (cm):</label>
+          <input type="number" id="radius" placeholder="Enter radius" />
+          <button class="btn_lingkaran">Calculate</button>
+          <p>Area: <span class="luas_lingkaran"></span></p>
+          <p>Circumference: <span class="keliling_lingkaran"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRIANGLE -->
+<div id="modalSegitiga" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeSegitiga">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/segitiga.png" alt="Triangle diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Triangle Formulas</h3>
+        <p><strong>Area:</strong> ½ × base × height</p>
+        <p><strong>Perimeter:</strong> a + b + c</p>
+        <div class="modal-calculate">
+          <label for="alas">Base (cm):</label>
+          <input type="number" id="alas" placeholder="Enter base" />
+          <label for="tinggi">Height (cm):</label>
+          <input type="number" id="tinggi" placeholder="Enter height" />
+          <label for="sisiA">Side A (cm):</label>
+          <input type="number" id="sisiA" placeholder="Enter side A" />
+          <label for="sisiB">Side B (cm):</label>
+          <input type="number" id="sisiB" placeholder="Enter side B" />
+          <label for="sisiC">Side C (cm):</label>
+          <input type="number" id="sisiC" placeholder="Enter side C" />
+          <button class="btn_segitiga">Calculate</button>
+          <p>Area: <span class="luas_segitiga"></span></p>
+          <p>Perimeter: <span class="keliling_segitiga"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SQUARE -->
+<div id="modalPersegi" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closePersegi">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/persegi.png" alt="Square diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Square Formulas</h3>
+        <p><strong>Area:</strong> side × side</p>
+        <p><strong>Perimeter:</strong> 4 × side</p>
+        <div class="modal-calculate">
+          <label for="sisi_persegi">Side (cm):</label>
+          <input type="number" id="sisi_persegi" placeholder="Enter side length" />
+          <button class="btn_persegi">Calculate</button>
+          <p>Area: <span class="luas_persegi"></span></p>
+          <p>Perimeter: <span class="keliling_persegi"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RECTANGLE -->
+<div id="modalPersegiPanjang" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closePersegiPanjang">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/persegiPanjang.png" alt="Rectangle diagram" class="modal-image" />
+      </div>
+      <div class="modal-right">
+        <h3>Rectangle Formulas</h3>
+        <p><strong>Area:</strong> length × width</p>
+        <p><strong>Perimeter:</strong> 2 × (length + width)</p>
+        <div class="modal-calculate">
+          <label for="panjang_persegi">Length (cm):</label>
+          <input type="number" id="panjang_persegi" placeholder="Enter length" />
+          <label for="lebar_persegi">Width (cm):</label>
+          <input type="number" id="lebar_persegi" placeholder="Enter width" />
+          <button class="btn_persegiPanjang">Calculate</button>
+          <p>Area: <span class="luas_persegiPanjang"></span></p>
+          <p>Perimeter: <span class="keliling_persegiPanjang"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PENTAGON -->
+<div id="modalPentagon" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closePentagon">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/pentagon.png" alt="Pentagon diagram" class="modal-image">
+      </div>
+      <div class="modal-right">
+        <h3>Pentagon Formulas</h3>
+        <p><strong>Area:</strong> (5/2) × side × apothem</p>
+        <p><strong>Perimeter:</strong> 5 × side</p>
+        <div class="modal-calculate">
+          <label for="sidePentagon">Side Length (cm):</label>
+          <input type="number" id="sidePentagon" placeholder="Enter side length">
+          <label for="apothemPentagon">Apothem (cm):</label>
+          <input type="number" id="apothemPentagon" placeholder="Enter apothem length">
+          <button class="btn_pentagon">Calculate</button>
+          <p>Area: <span class="area_pentagon"></span></p>
+          <p>Perimeter: <span class="perimeter_pentagon"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEXAGON -->
+<div id="modalHexagon" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeHexagon">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/hexagon.png" alt="Hexagon diagram" class="modal-image">
+      </div>
+      <div class="modal-right">
+        <h3>Hexagon Formulas</h3>
+        <p><strong>Area:</strong> (3√3/2) × side²</p>
+        <p><strong>Perimeter:</strong> 6 × side</p>
+        <div class="modal-calculate">
+          <label for="sideHexagon">Side Length (cm):</label>
+          <input type="number" id="sideHexagon" placeholder="Enter side length">
+          <button class="btn_hexagon">Calculate</button>
+          <p>Area: <span class="area_hexagon"></span></p>
+          <p>Perimeter: <span class="perimeter_hexagon"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ELLIPSE -->
+<div id="modalEllipse" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeEllipse">&times;</span>
+    <div class="modal-body">
+      <div class="modal-left">
+        <img src="img/ellipse.png" alt="Ellipse diagram" class="modal-image">
+      </div>
+      <div class="modal-right">
+        <h3>Ellipse Formulas</h3>
+        <p><strong>Area:</strong> π × semi-major × semi-minor</p>
+        <p><strong>Circumference (approximation):</strong> 2π × √((semi-major² + semi-minor²)/2)</p>
+        <div class="modal-calculate">
+          <label for="semiMajor">Semi-Major Axis (cm):</label>
+          <input type="number" id="semiMajor" placeholder="Enter semi-major axis">
+          <label for="semiMinor">Semi-Minor Axis (cm):</label>
+          <input type="number" id="semiMinor" placeholder="Enter semi-minor axis">
+          <button class="btn_ellipse">Calculate</button>
+          <p>Area: <span class="area_ellipse"></span></p>
+          <p>Circumference: <span class="circumference_ellipse"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
